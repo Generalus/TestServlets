@@ -17,22 +17,23 @@
  
 
 Регистрация нового клиента:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <request>
 <type>registerCustomer</type>
 <login>1234567890</login>
 <password>password</password>
 <request>
-
+```
  
 
 Ответ:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <response>
 <result-code>0</ result-code>
 </response>
+```
 
  
 
@@ -46,22 +47,24 @@
  
 
 Установка баланса:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <request>
 <type>setBalance</type>
 <login>1234567890</login>
 <balance></balance>
 <request>
+```
 
  
 Ответ:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <response>
 <code>0</code>
 <balance>100.00</balance>
 </response>
+```
 
 
 Где код ошибки:
@@ -72,23 +75,25 @@
 
 
 Получение баланса:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <request>
 <type>getBalance</type>
 <login>1234567890</login>
 <password>password</password>
 <request>
+```
 
  
 
 Ответ:
-
+```
 <?xml version=”1.0” encoding=”utf-8”?>
 <response>
 <code>0</code>
 <balance>100.00</ balance>
 </response>
+```
 
 
 Где код ошибки:
