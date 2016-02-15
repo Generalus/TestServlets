@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<my_script>
+    <request>
+        <login>azaza1</login>
+        <type>registerCustomer</type>
+    </request>
+    <request>
+        <balance>200.0</balance>
+        <login>root2</login>
+        <type>registerCustomer</type>
+    </request>
+    <request>
+        <balance>200.0</balance>
+        <login>root2</login>
+        <type>registerCustomer</type>
+        <password>pass</password>
+    </request>
+    <request>
+        <balance>100.0</balance>
+        <login>azaza</login>
+        <type>registerCustomer</type>
+    </request>
+</my_script>
+
+
